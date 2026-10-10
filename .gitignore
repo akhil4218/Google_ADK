@@ -1,0 +1,6 @@
+.venv/
+.adk/
+__pycache__/
+*.py[cod]
+.env
+my_agent/documents/*.pdf
