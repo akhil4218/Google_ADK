@@ -117,19 +117,6 @@ adk web
 
 Then open the local URL printed in the terminal and select `my_agent`.
 
-## Publish to GitHub
-
-Create an empty GitHub repository first, then run these commands from this project folder. Replace the URL with your repository URL.
-
-```bash
-git init
-git add .
-git commit -m "Initial resume PDF Q&A agent"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-git push -u origin main
-```
-
 Before publishing, check that `my_agent/.env` and PDFs inside `my_agent/documents/` are not included in `git status`.
 
 ## Limitations and next steps
